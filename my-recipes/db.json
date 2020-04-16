@@ -1,0 +1,29 @@
+{
+    "recipes": [
+        {
+           "name": "A Test Recipe",
+           "description": "This is simply a test",
+           "imagePath": "https://cdn.pixabay.com/user/2013/11/05/02-10-23-764_250x250.jpg"
+        },
+        {
+            "name": "Another Test",
+            "description": "A great recipe to Test",
+            "imagePath": "https://cdn.pixabay.com/user/2013/11/05/02-10-23-764_250x250.jpg"
+         },
+         {
+            "name": "s",
+            "description": "json-server",
+            "imagePath": "typicode"
+         },
+         {
+            "name": "s",
+            "description": "json-server",
+            "imagePath": "typicode"
+         },
+         {
+            "name": "s",
+            "description": "json-server",
+            "imagePath": "typicode"
+         }
+    ]
+  }
