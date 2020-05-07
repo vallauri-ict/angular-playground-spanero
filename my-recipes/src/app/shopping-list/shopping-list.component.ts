@@ -9,17 +9,18 @@ import { Ingredient } from '../shared/ingredient.model';
 export class ShoppingListComponent implements OnInit {
 
   ingredients: Ingredient[] = [
-    new Ingredient('Apple', 5),
-    new Ingredient('Tomato', 10)
-  ];
+    new Ingredient("mela", 5),
+    new Ingredient("pomodori", 10)
+  ]
 
   constructor() { }
-
-  ngOnInit() {
+  
+  ngOnInit(): void {
   }
 
-  add() {
-    alert("Ciao");
+  onIngredientAdded(ingredient: Ingredient) {
+    // AGGIUNGIAMO L'INGREDIENTE NEL VETTORE
+    this.ingredients.push(ingredient);
   }
-
+ 
 }
