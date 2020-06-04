@@ -7,18 +7,11 @@ import { Recipe } from '../../recipe.model';
   styleUrls: ['./recipe-item.component.css']
 })
 export class RecipeItemComponent implements OnInit {
-  // RICEVIAMO I DATI GIA' ESISTENTI USANDO IL DECORATORE @Input
-  // OCCORRE METTERLO ANCHE SOPRA NELLA import
+
   @Input() recipe: Recipe;
-  @Output() recipeSelected = new EventEmitter<void>();
 
   constructor() { }
 
   ngOnInit(): void {
   }
-
-  onSelected() {
-    this.recipeSelected.emit();
-  }
-
 }
